@@ -1,0 +1,737 @@
+/* ------------------------DESKTOP ----------------------------------------------------*/
+
+/*INDEX*/
+*
+{
+    padding:0px;
+    margin:0px;
+}
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+img
+{
+    border:0;
+}
+/*INDEX*/
+
+
+
+
+
+/*TOPO*/
+.topo
+{
+    width:100%;
+    z-index:10;
+    height: 88px; 
+}
+
+
+.navbar-brand
+{
+    margin-left: -28px;
+}
+
+/*FIM TOPO*/
+
+
+
+
+
+/*MENU*/
+.header-menu
+{
+    font-weight:bold;
+    background-color: #fff;
+    color:#00173c;
+    border-bottom: none;
+}
+.navbar
+{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.navbar-nav
+{
+    margin-left: 120px;
+}
+.navbar li
+{
+    padding-left: 15px;
+}
+
+.pipe
+{
+    height:25px;
+    color:#00173c;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.social
+{
+    display:flex;
+}
+/*FIM MENU*/
+
+
+
+
+
+/*BANNER DESTAQUE*/
+.banner_destaque
+{
+    height:577px;
+    z-index:9;
+  
+}
+.cx_lead
+{
+    float:left;
+    position: relative;
+    margin-bottom: 290px;
+    margin-left:-80px;
+}
+
+.lead
+{
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.lead_csv
+{
+    width: 345px;
+    font-size: 18px;
+    padding: 5px 15px;
+    font-weight:bold;
+    height:35px;
+}
+.lead_desc
+{
+    
+    width: 220px;
+    font-size: 18px;
+    padding: 5px 15px;
+    font-weight:bold;
+    background-color: #00173c;
+    color:#fff;
+    height:35px;
+}
+.lead_ips
+{
+    width: 305px;
+    font-size: 18px;
+    padding: 5px 15px;
+    font-weight:bold;
+    background-color: #00173c;
+    color:#fff;
+    height:35px;
+}
+.lead_dr
+{
+    width: 245px;
+    font-size: 18px;
+    padding: 5px 15px;
+    font-weight:bold;
+    background-color: #00173c;
+    color:#fff;   
+    height:35px;
+}
+.lead_s
+{
+    margin-top:-10px;
+}
+
+/*VENDA MODELOS DE CARROS */
+.vd_modelos
+{
+    position: absolute;
+    padding:20px 0px;
+    float:right;
+    right:-120px;
+    bottom:-10px;
+    text-align: left;
+}
+
+.vd_modelos h2
+{
+    padding: 15px 20px;
+    height:55px;
+    width:290px;
+    font-size:28px;
+    opacity:.8;
+    background-color:#00173c;
+    color:#fff;
+    margin-top: 130px;
+    text-align: left;
+     font-family: 'Montserrat', sans-serif;
+}
+
+
+.vl_preco
+{
+   padding:10px 0px 0px 10px;
+   width:330px;
+   opacity:.8;
+    background-color:#00173c;
+   color:#fff;
+   bottom: -30px;
+}
+
+.vl_preco h5 
+{
+    padding-top:10px;
+    padding-left: 10px;
+    opacity:.9;
+    font-weight: 300;
+    text-transform: uppercase;
+   
+}
+
+.vl
+{
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cifrao
+{
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight:100px;
+}
+
+.tb_fabricante
+{
+     padding-left: 10px;
+     padding-bottom: 10px;
+     font-family: 'Montserrat:300';
+     font-size: 14px;
+}
+
+/*FIM BANNER DESTAQUE*/
+
+
+
+
+
+/* SLIDER */
+.slider
+{
+    margin-top:-150px;
+    width:100%;
+    height:500px;
+    
+}
+.txt_destaques
+{
+    float: left;
+    padding-top: 21px;
+    padding-left: 100px;
+}
+
+.txt_destaques p
+{
+    padding:10px;
+    height:40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width:310px;
+    background-color:#fff;
+    color:#00173c;
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+/* FIM SLIDER */
+
+
+
+
+/*FORMULARIO*/
+.formulario
+{
+    height:455px;
+    text-align: center;
+    padding-top: 150px;
+    color:#000;
+    font-weight: bold;
+    background-color:cornflowerblue;
+}
+
+.formulario select
+{
+    height:35px;
+}
+.formulario .nome
+{
+    width:360px;
+    height:35px;
+}
+.formulario .ddd_celular
+{
+    width:102px;
+    margin-left: 35px;
+    height: 35px;
+    
+}
+.formulario .celular
+{
+    width:200px;
+    margin-left: 15px;
+}
+
+.formulario .email
+{
+    width:360px;
+}
+
+.formulario .ddd_telefone
+{
+    width:102px;
+    margin-left: 35px;
+}
+
+.formulario .telefone
+{
+    width:200px;
+    margin-left: 15px;
+}
+.formulario .cidade
+{
+    width:360px;
+    height:35px;
+}
+.formulario .sel_estado
+{
+    width:102px;
+    height: 36px;
+    margin-left: 35px;
+    color:#888;
+}
+.formulario .ddd_cep
+{
+    width:90px;
+    margin-left: 15px;
+}
+.formulario .ddd_interrogacao
+{
+    width:90px;
+    margin-left: 15px;
+}
+.formulario .necessidade{
+    margin-top: 17px;
+    color:#888;
+    width:505px;
+    height:35px;
+}
+.formulario .condutor
+{
+    width:200px;
+    height: 35px;
+    color:#888;
+    margin-left:15px;
+}
+/*FIM FORMULARIO*/
+
+
+/*FORMULARIO*/
+.formulario
+{
+    background-image: url(imgs/banner_avaliacao.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:578px;
+}
+.formulario h1
+{
+    margin-top:-50px;
+    color:#fff;
+    text-align:left;
+    font-size: 56px;
+    font-weight: bold;
+}
+.formulario h2
+{
+    color:#fff;
+    text-align:left;
+    font-size: 19px;
+}
+.formulario p
+{
+    margin-top: 20px;
+    text-align: left;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+}
+input{
+    margin-top: 17px;
+    padding:5px;
+    height: 35px;
+}
+.d_necessidade
+{
+    margin-top: 17px;
+    padding:5px;
+    width:375px;
+    margin-left: 2px;
+}
+textarea{
+    width:725px;
+    height:130px;
+    margin-top: 17px;
+    color:#888;
+}
+   
+.btn
+{
+    padding:5px;
+    width:155px;
+    border-radius:20px;
+    background-color: #e9b717;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#1d203e;
+    float: right;
+    cursor: pointer;
+}
+.id_condutor
+{
+    margin-left: 10px;
+}
+
+#form
+{
+    margin-top:-55px;
+}
+.sl_estado
+{
+    display:inline;
+}
+#prev2 img
+{
+    left:2px;
+    position: absolute;
+}
+#next2 img
+{
+  position: absolute;
+  right:-13px;
+}
+.nav_prev_next
+{
+   width:100%; 
+   margin-top:-205px;
+}
+.nav_carros_mod
+{
+    margin-top:-205px;
+}
+/*FORMULARIO*/
+
+
+
+
+
+/*VIDEO*/
+.video
+{
+    height:527px;
+    background-color:#000;
+}
+/*FIM VIDEO*/
+
+
+
+
+
+
+/*OFERTAS DE VEICULOS*/
+.ofertas_veiculos
+{
+    position: relative;
+    height:786px;
+    margin-top: -5px;
+    background-image:URL(imgs/ofertas_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ofertas_veiculos h2
+{
+    padding-top:100px;
+    text-align: center;
+    color:#1d203e;
+    font-size: 36px;
+}
+
+.fabricantes
+{
+    width: 100%;
+    height: 70px;
+    margin-top: 40px;
+    padding:13px 5px;
+    background-color: #fff;
+    opacity: .6;
+}
+
+.modelo_fb
+{
+    margin-top: 20px;
+}
+
+.fabricantes img
+{
+    margin-left: -9px;
+    padding:0px 5px 0px 0px;
+    
+    
+}
+
+.fabricantes a
+{
+    padding: 20px;
+    text-decoration: none;
+}
+.fabricantes a:hover
+{
+    background-color: #fff;
+    opacity: .9;
+    padding: 20px;
+}
+.fabricantes .ativo
+{
+    background-color: #fff;
+    opacity: .9;
+}
+
+.fab_modelo
+{
+    margin-left: -8px;
+    padding-top: 25px;
+}
+
+.fab_modelo h4
+{
+    
+    width:270px;
+    height: 50px;
+    padding:10px 10px;
+    background-color: #06092e;
+    color:#fff;
+    font-size: 28px;
+    font-weight: 100;
+}
+
+.slider_modelo
+{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+
+.fab_modelo p
+{
+    text-align: center;
+    width:270px;
+    height: 40px;
+    padding:14px 0px;
+    background-color: #06092e;
+    color:#fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.logo_destaque
+{
+    position: absolute;
+    right:-5px;
+    top: 0px;
+}
+.carro_modelo
+{
+    margin-top: 20px;
+}
+/*OFERTAS DE VEICULOS*/
+
+
+
+
+/*PATOLOGIAS*/
+.patologias
+{
+    height: 500px;
+    border-bottom: 1px solid #ccc;
+}
+/*FIM PATOLOGIAS*/
+
+
+
+
+
+
+/*VIDEO*/
+.video
+{
+    margin-top: 50px;
+}
+/*VIDEO*/
+
+
+
+
+
+
+
+
+
+
+/*RODAPE*/
+.rodape
+{
+    height:400px;
+    text-align: center;
+    padding-top: 150px;
+    color:#000;
+    font-weight: bold;
+    background-color:#fff;
+}
+/*FIM RODAPE*/
+
+
+/* ------------------------DESKTOP ----------------------------------------------------*/
+
+
+
+
+
+/* ------------------------TABLET ----------------------------------------------------*/
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 768px) and (max-width:1024px){
+    
+    /*BANNER DESTAQUE TABLET */
+    .cx_lead
+    {
+        display:none;
+    }
+    /* FIM BANNER DESTAQUE TABLET */
+    
+       /* MENU */
+    .navbar-nav 
+    {
+        font-size: 10px;
+    }   
+    /* FIM MENU */
+    
+    /*REDE SOCIAL*/
+    .social
+    {
+        display: none;
+    }
+    /*FIM REDE SOCIAL*/
+    
+        .formulario
+    {
+        height:auto;
+    }
+    #form
+    {
+        display: none;
+    }
+    .formulario h1
+    {
+        text-align: center;
+        display: none;
+    }
+    .formulario h2
+    {
+        display: none;
+    }
+    .formulario p
+    {
+        display:none;
+    }
+    
+  
+}
+
+/* FIM MEDIA QUERY */
+
+
+/* ------------------------TABLET ----------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* ------------------------CELULARES ----------------------------------------------------*/
+
+
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 368px) and (max-width:768px){
+    
+    
+    /*BANNER DESTAQUE CELULARES */
+    .cx_lead
+    {
+        display:none;
+    }
+    /* FIM BANNER DESTAQUE CELULARES*/
+    
+       /* MENU */
+    .navbar-nav 
+    {
+        font-size: 12px;
+    }   
+    /* FIM MENU */
+    
+    /*REDE SOCIAL*/
+    .social
+    {
+        display: none;
+    }
+    /*FIM REDE SOCIAL*/
+    
+    /*FORMULARIO*/
+    .formulario
+    {
+        height:auto;
+    }
+    #form
+    {
+        display: none;
+    }
+    .formulario h1
+    {
+        text-align: center;
+        display: none;
+    }
+    .formulario h2
+    {
+        display: none;
+    }
+    .formulario p
+    {
+        display:none;
+    }
+}
+  /*FORMULARIO*/
+
+
+/* ------------------------CELULARES ----------------------------------------------------*/
+
