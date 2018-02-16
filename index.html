@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
+<html lang="pt-br"><head>
     
     <title>MEGA ISENÇÕES IPVA, IPI, ICMS.</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -9,7 +8,7 @@
       
 <!-- METAS -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     <meta name="description" content="MEGA ISENÇÕES IPVA, IPI, ICMS. 30% de desconto na compra de um carro 0km."/>
     <meta name="keywords" content="Isenção de IPVA, Isenção de IPI, Isenção de ICMS e dispensa do rodízio de SP." />
     <meta name="robots" content="index, follow">
@@ -19,9 +18,8 @@
 <!-- JSCYCLE -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
-      
-           
-         
+    
+
     <script type="text/javascript">
         $('#s2').cycle({ 
         fx:     'scrollLeft', 
@@ -41,6 +39,36 @@
         prev:   '#prev2' 
         });
     </script>
+    
+    
+    
+ <!-- ZOOM DISABILITADO --> 
+     <script type="text/javascript">
+			 $(document).ready(function(){
+			 $(document).keydown(function(event) {
+					if (event.ctrlKey==true && (event.which == '61' || event.which == '107' || event.which == '173' || event.which == '109'  || event.which == '187'  || event.which == '189'  ) ) 
+			 {
+			 alert('Zoom desabilitado pelo administrador'); 
+			 event.preventDefault();
+				// 107 Num Key  +
+				//109 Num Key  -
+				//173 Min Key  hyphen/underscor Hey
+				// 61 Plus key  +/=
+			 }
+			 
+			 });
+	
+			  $(window).bind('mousewheel DOMMouseScroll', function (event) {
+			   if (event.ctrlKey == true) {
+			   alert('Zoom desabilitado pelo administrador'); 
+			   event.preventDefault();
+			 }
+		   });
+           });
+	 </script>
+<!-- ZOOM DISABILITADO --> 
+     
+     
 <!-- JSCYCLE -->  
       
       
@@ -52,7 +80,8 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
   </head>
-  <body>
+  
+  <body onload="zoom()" >
 <!-- FIM METAS -->     
       
       
@@ -62,16 +91,19 @@
           
         <div class="container">
       
+           <div id="logo">
             <a class="navbar-brand h1 mb-0" href="index.html">
-                <img src="imgs/logo.png" alt="MEGA ISENÇÕES IPVA, IPI, ICMS." border="0"/>
+                <img src="imgs/logo.jpg" alt="MEGA ISENÇÕES IPVA, IPI, ICMS." border="0"/>
             </a>
-
+           </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
               <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSite">
 
+      
+            <div id="menu">
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item"> 
@@ -94,12 +126,12 @@
                     </li>
 
                 </ul>
-                
+           </div>
                 <div class="social">
                                   
-                            <a href="#" title=""><img src="imgs/face.png" alt="Facebook" border="0"></a> 
+                            <a href="#" title=""><img src="imgs/face.jpg" alt="Facebook" border="0"></a> 
                             <span class="pipe"> | </span>
-                            <a href="#" title=""><img src="imgs/insta.png" alt="Instagram" border="0"></a>
+                            <a href="#" title=""><img src="imgs/insta.jpg" alt="Instagram" border="0"></a>
                 </div>
                 
 
@@ -111,9 +143,7 @@
  <!-- FIM TOPO -->           
             
     
-      
-      
-          
+    
             
 <!--CAROUSEL-->
       
@@ -263,13 +293,13 @@
                               <form name="formulario" method="post" action="php/processa.php" id="form">
                                   
                                    <input type="text" name="nome"           placeholder="*Nome completo" class="nome"/>
-                                   <input type="text" name="ddd_celeular"   placeholder="*DDD" class="ddd_celular"/>
-                                   <input type="text" name="celular"        placeholder="*Celular" class="celular"/>
+                                   <input type="text" name="ddd_celeular"   placeholder="*DDD"  maxlength="2" class="ddd_celular"/>
+                                   <input type="text" name="celular"        id="cel" placeholder="*Celular" class="celular cel-mask"/>
                                   
-                                   <input type="text" name="email"          placeholder="*Email" class="email"/>
-                                   <input type="text" name="ddd_telefone"   placeholder="DDD" class="ddd_telefone"/>
-                                   <input type="text" name="telefone"       placeholder="Telefone" class="telefone"/>
-                                  
+                                   <input type="text" name="email"          placeholder="*Email" class="email"/> 
+                                   <input type="text" name="ddd_telefone"   placeholder="DDD" maxlength="2" class="ddd_telefone"/>
+                                   <input type="text" name="telefone"     id="tel"  placeholder="Telefone" class="telefone" />
+                                 
                                   <input type="text" name="cidade"           placeholder="*Cidade" class="cidade"/>
                                   
                                   
@@ -307,14 +337,14 @@
 
                                       </select>
 
-                                      <input type="text" name="ddd_cep"           placeholder="CEP" class="ddd_cep"/>
+                                      <input type="text" name="ddd_cep"        id="cep"   placeholder="CEP" class="ddd_cep cep-mask"/>
 
 
-                                      <input type="text" name="interrogacao"      placeholder="&nbsp &nbsp &nbsp ?" class="ddd_interrogacao"/>
-                                  </div>
-                                  
-                                  
-                                  
+                                      <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank">
+                                      <input type="text" name="interrogacao"      placeholder="&nbsp &nbsp &nbsp ?" class="ddd_interrogacao" style="cursor:pointer;"/>
+                                      </a>
+                                      
+    
                                    <select class="necessidade">
                                                 <option name="necessidade" value="">*Qual é a necessidade?</option>                
                                                 <option name="necessidade" value="Sequela de AVC">Sequela de AVC</option>
@@ -341,12 +371,13 @@
                                                 <option name="necessidade"  value="Doenca de Parkinson">Doenca de Parkinson</option>
                                   </select>
                                   
-                                   <select class="condutor">
-                                      <option name="condutor" value="">*É condutor?</option>
+                                   <select class="condutor" placeholder="*É condutor?" selected>
                                       <option name="condutor" value="Não Condutor">Não Condutor</option>
                                       <option name="condutor" value="Condutor">Condutor</option>
                                   </select>
                                   
+                                 <input type="text" name="profissao"      placeholder="*Qual é a sua profissão?" class="profissao"/>
+
                                 
                                   <textarea id="mensagem" name="mensagem">
                                       Mensagem
@@ -357,14 +388,15 @@
                              </form>
                           </div>
                     </div>
+                    </div>
                 </div>
 <!-- FIM FORMULARIO  -->     
                 
                 
                 
 <!-- VIDEO -->
-                <div class="video">
-                          <iframe width="100%" height="531" src="https://www.youtube.com/embed/-s-srcaIuvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="video" style="margin-top:3px;">
+                      <iframe width="100%" height="531" src="https://www.youtube.com/embed/-s-srcaIuvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
 <!-- FIM VIDEO -->
 
@@ -385,7 +417,10 @@
                            
                                 <div class="fabricantes">
                                     
-                                   <a href="" class="ativo" id="fabricante1"> <img src="imgs/logo1.png"  alt="" border="0" />  </a>
+                                   <a href="" class="ativo" id="fabricante1"> 
+                                        <img src="imgs/logo1.png"  alt="" border="0" />  
+                                   </a>
+                                   
                                    <a href=""> <img src="imgs/logo2.png"  alt="" border="0" />  </a>
                                    <a href=""> <img src="imgs/logo3.png"  alt="" border="0" />  </a>
                                    <a href=""> <img src="imgs/logo4.png"  alt="" border="0" />  </a>
@@ -396,7 +431,10 @@
                                    <a href=""> <img src="imgs/logo9.png"  alt="" border="0"/>   </a>
                                    <a href=""> <img src="imgs/logo10.png" alt="" border="0" />  </a>
                                    <a href=""> <img src="imgs/logo11.png" alt="" border="0"/>   </a>
-                                   <a href="" > <img src="imgs/logo12.png" alt="" border="0"/> </a>
+                                   
+                                   <a href="" style="float:right; margin-top:-12px; margin-top:-20px;" > 
+                                       <img src="imgs/logo12.png" alt="" border="0"/> 
+                                   </a>
                               
                             </div>
                         </div>
@@ -411,6 +449,7 @@
                                   <h4 style="font-size: 21px;height:40px;margin-top: -11px;">POR ATÉ <span style="font-size: 18px; font-weight: 700;padding-right: 3px;">R$</span><strong style="font-weight: bold; font-size: 24px">69.999,00</strong></h4>
                                   <a href="#" class="btn" style="margin-top:35px; float:left; font-weight: bold;"> SAIBA+</a>
                               </div>
+                              
                           </div>
                             
                           <div class="col-md-9">
@@ -439,26 +478,64 @@
                     </div>
            
                 
-                </div>
+  </div>
                 
 <!-- OFERTAS DE VEICULOS -->
       
-      </div>
-      
+     
+<!-- O QUE FAZEMOS-->
+      <div class="sobre" style=" height:750px; background-image:url(imgs/oquefazemos.jpg); background-repeat:no-repeat; background-size:100%; margin-top:-20px;">
+          
+            <div class="container">
+            
+                  <div class="row">
+                  </div>
+              
+            </div>
+              
+  </div>
+<!-- O QUE FAZEMOS-->
 
-      
+
+
+
+
 <!-- PATOLOGIAS -->
-      <div class="patologias">
+     <div class="patologias">
           
+            <div class="container">
+            
+                  <div class="row">
+                  </div>
+              
+            </div>
+              
+     </div>
+<!-- PATOLOGIAS -->
+
+
+
+<!-- RODAPE -->
+
+   <div class="container">
+   
+     
           <div class="row">
-               <div class="col-md-4">
-               </div>
-               <div class="col-md-8">
-               </div>
-          </div>
           
-      </div>
-<!-- FIM PATOLOGIAS -->
+          <div class="rodape">
+                 <div class="col-md-10">
+                 </div>
+                 
+                 <div class="col-md-2">
+                    <a href="admin/index.html" target="_blank"> Login </a>
+                 </div>
+             </div>
+          </div>
+     
+      
+   </div>
+<!-- FIM RODAPE -->
+
       
 
       
