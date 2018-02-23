@@ -17,6 +17,7 @@
       
 <!-- JSCYCLE -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script type="text/javascript" src="js/config.js"></script>
     <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
     
 
@@ -107,31 +108,31 @@
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item"> 
-                        <a class="nav-link"  href="#" title="" style="color:#00173c; font-weight: bold;">QUEM SOMOS</a>
+                        <a class="nav-link"  href="quemsomos.php" title="" style="color:#00173c; font-weight: bold;">QUEM SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link"  href="#" title="" style="color:#00173c; font-weight: bold;">O QUE FAZEMOS</a>
+                        <a class="nav-link"  href="oquefazemos.php" title="" style="color:#00173c; font-weight: bold;">O QUE FAZEMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"  title="" style="color:#00173c; font-weight: bold;">QUEM TEM DIREITO</a>
+                        <a class="nav-link" href="quemtemdireito.php"  title="" style="color:#00173c; font-weight: bold;">QUEM TEM DIREITO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"  title="" style="color:#00173c; font-weight: bold;">CARROS</a>
+                        <a class="nav-link" href="carros.php"  title="" style="color:#00173c; font-weight: bold;">CARROS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"  title="" style="color:#00173c; font-weight: bold;">AVALIAÇÃO GRATUITA</a>
+                        <a class="nav-link" href="avaliacao.php"  title="" style="color:#00173c; font-weight: bold;">AVALIAÇÃO GRATUITA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"  title="" style="color:#00173c; font-weight: bold;">CONTATO</a>
+                        <a class="nav-link" href="contato.php"  title="" style="color:#00173c; font-weight: bold;">CONTATO</a>
                     </li>
 
                 </ul>
            </div>
                 <div class="social">
                                   
-                            <a href="#" title=""><img src="imgs/face.jpg" alt="Facebook" border="0"></a> 
+                            <a href="https://www.facebook.com/MegaIsencoes" title="" target="_blank"><img src="imgs/face.jpg" alt="Facebook" border="0"></a> 
                             <span class="pipe"> | </span>
-                            <a href="#" title=""><img src="imgs/insta.jpg" alt="Instagram" border="0"></a>
+                            <a href="https://www.instagram.com/megaisencoes/" title="" target="_blank"><img src="imgs/insta.jpg" alt="Instagram" border="0"></a>
                 </div>
                 
 
@@ -212,9 +213,9 @@
                     
                          <div class="vd_modelos">
 
-                            <h2>HYUNDAI CRETA</h2>
+                            <h2 style="margin-left:-1130px;">RENAULT <strong>DUSTER</strong></h2>
 
-                            <div class="vl_preco">
+                            <div class="vl_preco" style="margin-left:-1130px;">
                                 <h5>À PARTIR </h5>
                                   <span class="cifrao">R$</span> <span class="vl">69.655,35*</span>
 
@@ -251,9 +252,9 @@
                
                           <div class="vd_modelos">
 
-                            <h2>HYUNDAI CRETA</h2>
+                            <h2 style="margin-left:-1130px;">RENAULT <strong>DUSTER</strong></h2>
 
-                            <div class="vl_preco">
+                            <div class="vl_preco" style="margin-left:-1130px;">
                                 <h5>À PARTIR </h5>
                                   <span class="cifrao">R$</span> <span class="vl">69.655,35*</span>
 
@@ -294,11 +295,11 @@
                                   
                                    <input type="text" name="nome"           placeholder="*Nome completo" class="nome"/>
                                    <input type="text" name="ddd_celeular"   placeholder="*DDD"  maxlength="2" class="ddd_celular"/>
-                                   <input type="text" name="celular"        id="cel" placeholder="*Celular" class="celular cel-mask"/>
+                                   <input type="text" name="celular"        maxlength="8" id="cel" placeholder="*Celular" class="celular cel-mask"/>
                                   
                                    <input type="text" name="email"          placeholder="*Email" class="email"/> 
                                    <input type="text" name="ddd_telefone"   placeholder="DDD" maxlength="2" class="ddd_telefone"/>
-                                   <input type="text" name="telefone"     id="tel"  placeholder="Telefone" class="telefone" />
+                                   <input type="text" name="telefone"       maxlength="8" id="tel"  placeholder="Telefone" class="telefone" />
                                  
                                   <input type="text" name="cidade"           placeholder="*Cidade" class="cidade"/>
                                   
@@ -337,7 +338,7 @@
 
                                       </select>
 
-                                      <input type="text" name="ddd_cep"        id="cep"   placeholder="CEP" class="ddd_cep cep-mask"/>
+                                      <input type="text" name="ddd_cep"        maxlength="8" id="cep"  placeholder="CEP" class="ddd_cep cep-mask"/>
 
 
                                       <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/" target="_blank">
@@ -375,10 +376,7 @@
                                       <option name="condutor" value="Não Condutor">Não Condutor</option>
                                       <option name="condutor" value="Condutor">Condutor</option>
                                   </select>
-                                  
-                                 <input type="text" name="profissao"      placeholder="*Qual é a sua profissão?" class="profissao"/>
 
-                                
                                   <textarea id="mensagem" name="mensagem">
                                       Mensagem
                                   </textarea>
@@ -395,8 +393,8 @@
                 
                 
 <!-- VIDEO -->
-                <div class="video" style="margin-top:3px;">
-                      <iframe width="100%" height="531" src="https://www.youtube.com/embed/-s-srcaIuvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <div class="video" style="margin-top:3px; padding:130px 0px;">
+                      <iframe width="944px;" height="531" src="https://www.youtube.com/embed/-s-srcaIuvw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
 <!-- FIM VIDEO -->
 
@@ -422,17 +420,17 @@
                                    </a>
                                    
                                    <a href=""> <img src="imgs/logo2.png"  alt="" border="0" />  </a>
-                                   <a href=""> <img src="imgs/logo3.png"  alt="" border="0" />  </a>
-                                   <a href=""> <img src="imgs/logo4.png"  alt="" border="0" />  </a>
-                                   <a href=""> <img src="imgs/logo5.png"  alt="" border="0" />  </a>
-                                   <a href=""> <img src="imgs/logo6.png"  alt="" border="0"/>   </a> 
-                                   <a href=""> <img src="imgs/logo7.png"  alt="" border="0"/>   </a>
-                                   <a href=""> <img src="imgs/logo8.png"  alt="" border="0"/>   </a>
-                                   <a href=""> <img src="imgs/logo9.png"  alt="" border="0"/>   </a>
-                                   <a href=""> <img src="imgs/logo10.png" alt="" border="0" />  </a>
-                                   <a href=""> <img src="imgs/logo11.png" alt="" border="0"/>   </a>
+                                   <a href="" id="jeep"> <img src="imgs/logo3.png"  alt="" border="0" />  </a>
+                                   <a href="" id="audi"> <img src="imgs/logo4.png"  alt="" border="0" />  </a>
+                                   <a href="" id="toyota"> <img src="imgs/logo5.png"  alt="" border="0" />  </a>
+                                   <a href="" id="ford"> <img src="imgs/logo6.png"  alt="" border="0"/>   </a> 
+                                   <a href="" id="chevrolet"> <img src="imgs/logo7.png"  alt="" border="0"/>   </a>
+                                   <a href="" id="bmw"> <img src="imgs/logo8.png"  alt="" border="0"/>   </a>
+                                   <a href="" id="fiat"> <img src="imgs/logo9.png"  alt="" border="0"/>   </a>
+                                   <a href="" id="volks"> <img src="imgs/logo10.png" alt="" border="0" />  </a>
+                                   <a href="" id="renault"> <img src="imgs/logo11.png" alt="" border="0"/>   </a>
                                    
-                                   <a href="" style="float:right; margin-top:-12px; margin-top:-20px;" > 
+                                   <a href="" id="pegeout" style="float:right; margin-top:-12px; margin-top:-20px;" > 
                                        <img src="imgs/logo12.png" alt="" border="0"/> 
                                    </a>
                               
@@ -458,9 +456,11 @@
                                   <img src="imgs/logo-destaque.png" alt="" class="logo_destaque" />
                                   
                                       <div id="s2">
-                                          <img src="imgs/carro.png" alt="" class="carro_modelo" />
-                                          <img src="imgs/carro.png" alt="" class="carro_modelo" />
-                                          <img src="imgs/carro.png" alt="" class="carro_modelo" />
+                                         
+                                          <img src="imgs/carro1.png" alt="" class="carro_modelo" />
+                                          <img src="imgs/carro2.png" alt="" class="carro_modelo" />
+                                           <img src="imgs/carro.png" alt="" class="carro_modelo" />
+                                           
                                       </div>
                                   
                                   <div class="nav_carros_mod">
@@ -469,9 +469,9 @@
                                           <a href="" id="next2"><img src="imgs/logo_next.jpg" alt=""></a>
                                        </nav>
                                   </div>
-                              </div>
+                               </div>
                               
-                          </div>
+                              </div>
                             
                         </div>
                         
@@ -484,16 +484,57 @@
       
      
 <!-- O QUE FAZEMOS-->
-      <div class="sobre" style=" height:750px; background-image:url(imgs/oquefazemos.jpg); background-repeat:no-repeat; background-size:100%; margin-top:-20px;">
+      <div  style="height:750px; margin-top:-20px;">
           
-            <div class="container">
-            
-                  <div class="row">
+          <img src="imgs/oq-fazemos-bg_quem-tem-direito.jpg" width="100%" alt="" id="sobre" />
+          
+            <div class="container" style="margin-top:-740px;">
+                      
+              
+            <div class="row">
+                              
+                              <div class="quem_tem_direito">
+                                     
+                                            <h2> O QUE <strong> FAZEMOS </strong> </h2>
+                                            
+                                            <h3 id="titulo">QUEM TEM </span> <br> <strong> DIREITO </strong></h3>
+                                        
+                                             <p id="paragrafo">VEJA QUEM PODE TER DIREITO ÁS ISENÇÕES <br>E DESCUBRA SE VOCÊ É UM DELES  </p>
+                                            
+                                            <a href="#" class="btn" id="btn_botao" style="float:left; margin-left:-180px; margin-top:30px; cursor:pointer; position: absolute; z-index:4;">  <strong> SAIBA + </strong> </a>
+                                            
+                                     </div>
+                                 
+                              </div>
+                              
+                       
+            </div>
+  
+           <div class="container-fluid">
+  
+               <div class="row">
+                  
+                   <div class="icons" style="margin-top:150px;">
+                   
+                        <img src="imgs/1_quem-tem-direito.png" width="100" height="128"       id="quemtemdireito"        class="ativado">
+                        <img src="imgs/2_isencoes-tributarias.png" width="100" height="128"   id="isencoes_tributarias">
+                        <img src="imgs/3_nao-condutores.png" width="100" height="128"         id="nao_condutores">
+                        <img src="imgs/4_habilitacao-especial.png" width="100" height="128"   id="habilitacao_especial">
+                        <img src="imgs/5_defesa-pontuacao.png" width="100" height="128"       id="defesa_pontuacao">
+                        <img src="imgs/6_laudo-medico.png" width="100" height="128"           id="laudo_medico">
+                        <img src="imgs/7_venda-seu-usado.png" width="100" height="128"        id="venda_usado">      
+                        <img src="imgs/8_cartao-defis.png" width="100" height="128"           id="cartao_defis">
+                        <img src="imgs/9_avaliacao-gratuita.png" width="100" height="128"     id="avaliacao_gratuita">
+                        <img src="imgs/10_adaptacao-de-veiculos.png" width="100" height="128" id="adaptacao_veiculos">
+                        <img src="imgs/11_empresas.png" width="100" height="128"              id="empresa">
+                        <img src="imgs/12_concessionarias.png" width="100" height="128"       id="concessionarias">
+                        
+                    </div>
+                   
                   </div>
               
             </div>
-              
-  </div>
+ </div>             
 <!-- O QUE FAZEMOS-->
 
 
@@ -506,6 +547,92 @@
             <div class="container">
             
                   <div class="row">
+                  
+                  
+                  <div class="cx_patologia"  style="margin-top:100px;">
+                       
+                       <div class="col-md-4">
+                         
+                          <div class="veja" >
+                          
+                                <h2>VEJA QUEM <br/>
+                                <strong>PODE TER DIREITO</strong></h2>
+                                
+                                <p>Ao contrário do que a maioria das pessoas pensam, o benefício não abrange apenas deficiências clássicas como amputações ou imobilidades (cadeirantes), e sim, a todas as pessoas que devido às doenças ortopédicas, neurológicas e oncológicas podem sofrer de dor crônica em movimentos diários. </p>
+                                
+                                
+                                <p>A MEGA ASSESSORIA ÀS ISENÇÕES possui uma ampla equipe de profissionais capacitados para atendê-lo e orientá-lo sobre o processo de obtenção das isenções ficais (IPI, IOF, ICMS, IPVA, RODIZIO), na compra de veículos adaptados. </p>
+                                
+                          </div>
+                          
+                       </div>
+                       
+                       <div class="col-md-12">
+                          <div class="container">
+                           <div class="doencas">
+                           
+                               <div class="row" style="margin-left:180px;">
+                               
+                                       <div class="link_doencas">
+                                        <ul>
+                                        <li> <a href="sequeladeavc.php" title="SEQUELA DE AVC"> SEQUELA DE AVC </a> </li>
+                                        <li> <a href="herniadedisco.php" title="HÉRNIA DE DISCO NA COLUNA">HÉRNIA DE DISCO NA COLUNA </a> </li>
+                                        <li> <a href="artrodese.php" title="ARTRODESE">ARTRODESE </a> </li>
+                                        <li> <a href="protesedefemur.php" title="PROTESE DE FEMUR">PROTESE DE FEMUR </a> </li>
+                                        <li> <a href="cirurgiadejoelho.php" title="CIRURGIA DE JOELHO">CIRURGIA DE JOELHO </a> </li>
+                                        <li> <a href="cancerdeprostata.php" title="CÂNCER DE PRÓSTATA PÓS CIRÚRGICO">Câncer de próstata pós cirúrgico </a> </li>
+                                        <li> <a href="insuficienciarenal.php" title="INSUFICIÊNCIA RENAL EM USO FÍSTULA">Insuficiência renal em uso fístula </a> </li>
+                                        <li> <a href="encurtamentomembros.php" title="ENCURTAMENTO DE MEMBROS">Encurtamento de membros </a> </li>
+                                        <li> <a href="sindromedotunel.php" title="SÍNDROME DO TUNEL DO CARPO">Síndrome do tunel do carpo </a> </li>
+                                        <li> <a href="cirurgiadepunho.php" title="CIRURGIA DE PUNHO">Cirurgia de punho </a> </li>
+                                        <li> <a href="fisica.php" title="FÍSICA *">Física * </a> </li> 
+                                        <li> <a href="deficienciavisual.php" title="DEFICIÊNCIA VISUAL *">Deficiência Visual * </a> </li>
+                                        <li> <a href="acidentevascular.php" title="AVE (ACIDENTE VASCULAR ENCEFÁLICO)">AVE (acidente vascular encefálico) </a> </li>
+                                        <li> <a href="esclerosemultipla.php" title="ESCLEROSE MÚLTIPLA">Esclerose múltipla </a> </li>
+                                        <li> <a href="monoplegia.php" title="MONOPLEGIA">Monoplegia </a> </li>
+                                        <li> <a href="paralisia.php" title="PARALISIA">Paralisia </a> </li>
+                                        <li> <a href="parkinson.php" title="PARKINSON">Parkinson </a> </li>
+                                        <li> <a href="tendinitecronica.php" title="TENDINITE CRÔNICA">Tendinite crônica </a> </li> 
+                                        <li> <a href="tetraparesia.php" title="TETRAPARESIA">Tetraparesia </a> </li>
+                                        <li> <a href="manguito.php" title="MANGUITO ROTADOR">Manguito rotador </a> </li>
+                                        </ul>
+                                 
+                                    </div>
+                              
+                                   <div class="link_doencas">
+                                        <ul> 
+                                            <li> <a href="cancermama.php" title="CÂNCER DE MAMA">Câncer de mama </a> </li>
+                                            <li> <a href="cirurgiacoluna.php" title="CIRURGIA DE COLUNA">Cirurgia de coluna </a> </li>
+                                            <li> <a href="espondiliteanquilosante.php" title="ESPONDILITE ANQUILOSANTE">Espondilite anquilosante </a> </li>
+                                            <li> <a href="artrosequadril.php" title="ARTROSE DE QUADRIL">Artrose de quadril </a> </li>
+                                            <li> <a href="cirurgialesaoombro.php" title="CIRURGIA E OU LESÃO DE OMBRO">Cirurgia e ou lesão de ombro </a> </li>
+                                            <li> <a href="condromalaciapatelar.php" title="CONDROMALACIA PATELAR DO JOELHO">Condromalacia patelar do joelho </a> </li>
+                                            <li> <a href="amputacoesausenciamembro.php" title="AMPUTAÇÕES OU AUSÊNCIA DE MEMBRO">Amputações ou ausência de membro </a> </li>
+                                            <li> <a href="doencasrenaiscronicas.php" title="DOENÇAS RENAIS CRÔNICAS">Doenças renais crônicas </a> </li>
+                                            <li> <a href="estomias.php" title="ESTOMIAS">Estomias </a> </li>
+                                            <li> <a href="artrite.php" title="ARTRITE">Artrite </a> </li>
+                                            <li> <a href="mentalseveraprofunda.php" title="MENTAL SEVERA OU PROFUNDA">Mental severa ou profunda </a> </li>
+                                            <li> <a href="autistas.php" title="AUTÍSTAS">Autístas </a> </li>
+                                            <li> <a href="doencasdegenerativas.php" title="DOENÇAS DEGENERATIVAS">Doenças degenerativas </a> </li> 
+                                            <li> <a href="escolioseacentuada.php" title="ESCOLIOSE ACENTUADA">Escoliose acentuada </a> </li>
+                                            <li> <a href="manoparesia.php" title="MONOPARESIA">Monoparesia </a> </li>
+                                            <li> <a href="nanismo.php" title="NANISMO (BAIXA ESTATURA)">Nanismo (baixa estatura) </a> </li>
+                                            <li> <a href="paraplegia.php" title="PARAPLEGIA">Paraplegia </a> </li>
+                                            <li> <a href="poliomielite.php" title="POLIOMIELITE">Poliomielite </a> </li>
+                                            <li> <a href="protesesinternasexternas.php" title="PRÓTESES INTERNAS E EXTERNAS">Próteses internas e externas </a> </li>
+                                            <li> <a href="tetraplegia.php" title="TETRAPLEGIA">Tetraplegia </a> </li>
+                                       </ul>
+                                       </div>
+                                       
+                                       <p> <strong>São passíveis de isenções as pessoas que tragam limitações de movimento, perda de força, sensibilidade ou qualquer lesão com recomendação de limite de esforço. O direito de isenção em decorrência de alguma das patologias descritas acima só é concedido após apresentação de laudo médico emitido por peritos conveniados do DETRAN. Confira na íntegra a LEI 11.941/2009. </strong></p>
+                                       
+                                       
+                                  </div>
+                                  </div>
+                                </div>     
+                              </div>
+                          </div>  
+                  
                   </div>
               
             </div>
@@ -515,19 +642,191 @@
 
 
 
+<!-- ISENCAO DE IMPOSTOS -->
+    
+    <div class="isencao_impostos">
+    
+            <div class="container-fluid">
+            
+                 <div class="row">
+                 
+                  
+                       <div class="col-md-4 txt_isencao">
+                       
+                         <h2> ISENÇÃO DE
+                              <strong style="letter-spacing:0px;">IMPOSTOS</strong></h2>
+                         <p> CONFIRA &nbsp; SE VOCÊ &nbsp; TEM DIREITO À <br>ISENÇÃO DE IMPOSTOS NA COMPRA  <br>  DE UM VEÍCULO 0 Km: </p>
+                         
+                       </div>
+                   
+                   
+                   <div class="col-md-8">
+                       <div class="cx_doencas_cronicas">
+                       
+                           <div class="isen_impost">
+                             
+                             <div class="img_isent_impost">
+                              <img src="imgs/icone_isencao3.png" alt="" /> 
+                            </div>
+                           
+                            <div class="txt_isent_impost">Todo o cidadão portador de doenças crônicas que causem diminuição da força ou da sensibilidade de membros ou segmentos do corpo, pode requerer isenção de impostos. A isenção é concedida à pessoa portadora de deficiência, ou que tenha limitações físicas, sendo condutores de veículos ou não.
+                           </div>
+                           
+                           </div>
+                           
+                           
+                           <div class="isen_impost">
+                           
+                              <div class="img_isent_impost">
+                                <img src="imgs/icone_isencao2.png" alt="" style="margin-top:10px;" />
+                              </div> 
+                              
+                              <div class="txt_isent_impost">
+                              O beneficio não abrange apenas deficiências clássicas, como amputações ou imobilidades (cadeirantes). Ele é extensivo a portadores de doenças ortopédicas, neurológicas, oncológicas. Também favorece pessoas que sofram de dor crônica ao fazer movimentos diários.
+Por exemplo, pessoas com a Hérnia Discal da coluna lombar. Nesse caso, o cidadão pode requerer o benefício para compra do carro automático com desconto.
+                             </div>
+                             
+                           </div>
+                           
+                           
+                           <br>
+                           
+                           <div class="isen_impost">
+                           
+                              <div class="img_isent_impost">
+                                  <img src="imgs/icone_isencao1.png" alt="" />
+                              </div>
+                              
+                              <div class="txt_isent_impost">Esses critérios são avaliados e liberados por uma junta médica credenciada no DETRAN.
+O direito à isenção, em decorrência de alguma das patologias acima, só é concedido após apresentação de laudo médico emitido por peritos conveniados com o Detran.
+                             </div>
+                             
+                             
+                           </div>
+                       
+                       </div>
+                   </div>
+                   
+                 </div>
+                 
+             </div>  
+             
+    </div>
+
+<!-- ISENCAO DE IMPOSTOS -->
+
+
+
+
+<!-- LOGO MEGA -->
+<div class="logo_megaisencoes">
+
+<div class="container">
+   <div class="row">
+       <div class="col-md-4">
+           <a href="#" title="Mega Isenções"> <img src="imgs/logo_mega_isencoes.jpg" alt="" title="" border="0"/> </a>
+       </div>
+       <div class="col-md-8"> 
+           
+           <div style="border-left:2px solid #003;">
+               <h3 class="log_cor"> <strong> MEGA Assessoria ás Isenções: </strong></h3>
+               <h3> única assessoria completa para obtenção de seu veicúlo com isenção de impostos </h3>
+              
+                   <p>   
+                         A MEGA ASSESSORIA ÁS ISENÇÕES é a primeira e única empresa de São Paulo a realizar todas as etapas  
+                         necessárias para a conquista do benefício na compra de carros com isenção de impostos para pessoas com 
+                         necessidades especiais, de acordo com o que é previsto em lei. Contamos com uma equipe altamente treinada  
+                         e qualificada para entender a todo tipo de dúvida que possa surgir, além de um auxilio completo em todos os 
+                         processos de obtenção do direito a isenção.
+                   </p>
+          </div>
+       </div>
+   </div>
+ </div>
+</div>
+<!-- LOGO MEGA -->
+
+
+
+
+
+<!-- MAPA LOCALIZACAO -->
+
+    <div class="container-fluid">
+    <a href="https://www.google.com.br/maps/place/Av.+Jandira,+742+-+Indian%C3%B3polis,+S%C3%A3o+Paulo+-+SP,+04080-004/@-23.6101952,-46.6609924,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5a1235e2ce3b:0x68360db3cf00b2cd!8m2!3d-23.6101952!4d-46.6588037" target="_blank">
+       <div class="row">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.8362656517365!2d-46.66097738544131!3d-23.610204384658626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a12359bf90d%3A0x6b7d7183693b575d!2zTWVnYSBJc2Vuw6fDtWVz!5e0!3m2!1spt-PT!2sbr!4v1519130677802" width="100%" height="600" frameborder="0" style="border:0; pointer-events:none;"></iframe>
+       </div>
+      </a> 
+      </div>
+      
+   
+<!-- MAPA LOCALIZACAO -->
+
+
+
+
 <!-- RODAPE -->
 
-   <div class="container">
+   <div class="container-fluid">
    
      
           <div class="row">
           
           <div class="rodape">
-                 <div class="col-md-10">
+               
+               <div class="container">
+               
+                 <div class="col-md-5 rodape_col1">
+                 
+                     <nav>   
+                        <ul>
+                            <li><a href="oquefazemos.php">   . O QUE FAZEMOS </a></li>
+                            <li><a href="quaisdoencasdaodireito.php">   . QUAIS DOENÇAS DÃO DIREITO </a></li>
+                            <li><a href="quecarrospossocomprar.php">   . QUE CARROS POSSO COMPRAR </a></li>
+                            <li><a href="facaumaavaliacao.php">   . FAÇA UMA AVALIAÇÃO </a></li>
+                            <li><a href="quemsomos.php">   . QUEM SOMOS </a></li>
+                            
+                        </ul>
+                     </nav>
+                     
                  </div>
                  
-                 <div class="col-md-2">
-                    <a href="admin/index.html" target="_blank"> Login </a>
+                 <div class="col-md-3 rodape_col2">
+                 
+                          <nav>
+                            <li><a href="quemtemdireito.php">  . QUEM TEM DIREITO  </a></li>
+                            <li><a href="isencoestributarias.php">  . ISENÇÕES TRIBUTÁRIAS </a></li>
+                            <li><a href="naocondutores.php">  . NÃO CONDUTORES  </a></li>
+                            <li><a href="habilitacaoespecial.php">  . HABILITAÇÃO ESPECIAL </a></li>
+                            <li><a href="defesadepontuacao.php">  . DEFESA DE PONTUAÇÃO  </a></li>
+                            <li><a href="laudomedico.php">  . LAUDO MÉDICO </a></li>
+                            <li><a href="vendaseuusado.php">  . VENDA SEU USADO </a></li>
+                            <li><a href="cartaodefis.php">  . CARTAO DEFIS </a></li>
+                            <li><a href="avaliacaogratuita.php">  . AVALIAÇÃO GRATUITA </a></li>
+                            <li><a href="adaptacaodeveiculos.php">  . ADAPTAÇÃO DE VEÍCULOS </a></li>
+                            <li><a href="empresas.php">  . EMPRESAS </a></li>
+                            <li><a href="concessionarias.php">  . CONCESSIONÁRIAS </a></li>
+                          </nav>
+                          
+                 </div>
+                 
+                         <div class="col-md-4 rodape_col3">
+                         
+                               <div class="redes_sociais_rodape">
+                                  
+                                  <div class="redes_sociais1"> <img src="imgs/face_logo_rodape.jpg" alt="" border="0" /> &nbsp; <a href="https://www.facebook.com/MegaIsencoes" target="_blank"><span style="font-weight:100">facebook.com/</span>MegaIsencoes </a>               </div>
+                                  <div class="redes_sociais1"> <img src="imgs/tel_rodape.jpg" alt="" />  &nbsp;      11 2344.8400                             </div>
+                                  <div class="redes_sociais1"> <img src="imgs/home_rodape.jpg" alt="" /> &nbsp;       Avenida Jandira, 742/<span style="font-weight:100">Moema-São Paulo-SP </span> </div>
+                                  <div class="redes_sociais1"> <img src="imgs/email_rodape.jpg" alt="" /> &nbsp;    <a href="mailto:nmarketing@megaisencoes.com.br">  atendimento@megaisencoes.com.br</a>          </div>
+                                  <div class="redes_sociais1"> <img src="imgs/curtirface_rodape.jpg" alt="" /></div>
+                                  
+                               
+                               </div>
+                               
+                               <a href="admin/index.html" target="_blank" style="float:right;"> <img src="imgs/icon_area_restrita.png" alt="Área restrita" title="Área restrita"/> </a>
+                         </div>
+                 
                  </div>
              </div>
           </div>
@@ -536,7 +835,22 @@
    </div>
 <!-- FIM RODAPE -->
 
+
+
+
+
       
+<!-- RODAPE INFERIOR -->
+    <div class="container-fluid rodape_inferior">
+      <div class="row">
+        
+      </div>
+      </div>
+<!-- RODAPE INFERIOR -->
+
+
+
+
 
       
     <!-- Optional JavaScript -->

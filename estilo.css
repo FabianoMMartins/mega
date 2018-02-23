@@ -174,7 +174,7 @@ img
 {
     padding: 15px 20px;
     height:55px;
-    width:290px;
+    width:310px;
     font-size:28px;
     opacity:.8;
     background-color:#00173c;
@@ -229,6 +229,10 @@ img
      font-size: 14px;
 }
 
+.model_left
+{
+	margin-left:-200px;
+}
 /*FIM BANNER DESTAQUE*/
 
 
@@ -272,7 +276,7 @@ img
 /*FORMULARIO*/
 .formulario
 {
-    height:455px;
+    height:578px;
     text-align: center;
     padding-top: 150px;
     color:#000;
@@ -476,7 +480,7 @@ textarea{
 {
     position: relative;
     height:786px;
-    margin-top: -5px;
+    margin-top: 200px;
     background-image:URL(imgs/ofertas_bg.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -585,15 +589,137 @@ textarea{
 /*PATOLOGIAS*/
 .patologias
 {
-    height: 500px;
-    border-bottom: 1px solid #ccc;
+	margin-top:-20px;
+	background-image:url(imgs/quem-tem-direito_bg.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+    height: 853px;
+}
+
+.cx_patologia
+{
+	float:left;
+	margin-top:150px;
+	width:95%;
+	margin:0 auto;
+	height:690px;
+	border:2px solid #ccc;
+	
+}
+
+.veja
+{
+	width:330px;
+	margin-left:-120px;
+	background-color:#eaedef;
+}
+.veja p
+{
+	color:#000;
+	text-align:justify;
+	font-weight:400;
+	font-size:15px;
+	margin-top:30px;
+	
+}
+.veja h2
+{
+	margin-top:100px;
+	font-size:33px;
+	font-weight:500;
+	color:#000;
+	padding-top:20px;
+}
+.doencas
+{
+	margin-left:140px;
+	float:right;
+	width:75%;
+	height:615px;
+	margin-top:-500px;
+}
+
+.doencas p
+{
+	color:#000;
+}
+
+.link_doencas
+{
+	width:50%;
+}
+
+.link_doencas ul
+{
+	list-style:none;
+	margin-top:-40px;
+}
+.link_doencas li
+{
+	font-size:12px;
+	text-transform:uppercase;
+	text-align:left;
+}
+.link_doencas a
+{
+	color:#000;
+	line-height:25px;
+}
+
+.doencas p
+{
+	font-size:10px;
+	font-weight:500;
+	margin-top:10px;
+	text-align:justify;
+	padding-right:20px;
+	
 }
 /*FIM PATOLOGIAS*/
 
 
 
 
+.isencao_impostos
+{
+	background-image:url(imgs/isencao_impostos.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin-top:-20px;
+	height:507px;
+}
+.isencao_impostos h2
+{
+	margin-top:90px;
+	font-size:50px;
+	color:#1d203e;
+	letter-spacing:-5px;
+}
+.txt_isencao
+{
+	margin-left:160px;
+}
 
+.txt_isencao h2
+{
+	margin-top:180px;
+}
+.isencao_impostos p
+{
+	color:#1d203e;
+	font-weight:bold;
+	text-align:justify;
+	font-size:16px;
+}
+
+.cx_doencas_cronicas
+{
+	margin-left:600px;
+	margin-top:-285px;
+	width:100%;
+	height:350px;
+	border:2px solid #e9b717;
+}
 
 /*VIDEO*/
 .video
@@ -617,13 +743,369 @@ textarea{
 
 
 
+<!-- LOGO MEGA -->
+.logo_megaisencoes
+{
+	height:387px;
+	border:1px solid #999;
+}
+
+.logo_megaisencoes img
+{
+	
+	margin-top:130px;
+}
+<!-- LOGO MEGA -->
+
+.logo_megaisencoes h2
+{
+	font-size:12px;
+	text-align:left;
+	color:#00103a;
+	margin-left:20px;
+	
+}
+
+.logo_megaisencoes h3
+{
+	margin-left:40px;
+	font-size:12px;
+	text-align:left;
+	color:#00103a;
+	font-weight:500;
+}
+
+.logo_megaisencoes p
+{
+	margin-left:40px;
+	font-size:small;
+	color:#00103a;
+	margin-bottom:100px;
+}
+
+.log_cor
+{
+	margin-top:100px;
+	color:#00103a;
+	font-weight:bold;
+}
+.quem_tem_direito
+{
+	margin-left:280px;
+	height:430px;
+}
+
+.quem_tem_direito h2
+{
+	font-size:32px;
+	text-decoration:underline;
+	margin-top:100px;
+	text-align:left;
+	color:#160c65;
+}
+
+.quem_tem_direito h3
+{
+	margin-top:60px;
+	font-size:60px;
+	text-align:left;
+	color:#160c65;
+	font-weight:bold;
+}
+
+.quem_tem_direito p
+{
+	font-size:16px;
+	text-align:left;
+	color:#160c65;
+	font-weight:bold;
+}
+
+.icons
+{
+	margin:0 auto;
+	cursor:pointer;
+}
+
+.icons .ativado
+{
+	background-image:url(imgs/1_quem-tem-direito_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_isencao_tributaria
+{
+	background-image:url(imgs/2_isencoes-tributarias_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_nao_condutores
+{
+	background-image:url(imgs/3_nao-condutores_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+.icons .ativado_habilitacao_especial
+{
+	background-image:url(imgs/4_habilitacao-especial_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_defesa_pontuacao
+{
+	background-image:url(imgs/5_defesa-pontuacao_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_laudo_medico
+{
+	background-image:url(imgs/6_laudo-medico_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_venda_usado
+{
+	background-image:url(imgs/7_venda-seu-usado_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_cartao_defis
+{
+	background-image:url(imgs/8_cartao-defis_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+.icons .ativado_cartao_defis
+{
+	background-image:url(imgs/8_cartao-defis_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_avaliacao_gratuita
+{
+	background-image:url(imgs/9_avaliacao-gratuita_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_adaptacao_veiculos
+{
+	background-image:url(imgs/10_adaptacao-de-veiculos_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_empresa
+{
+	background-image:url(imgs/11_empresas_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons .ativado_concessionarias
+{
+	background-image:url(imgs/12_concessionarias_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+
+
+.icons #isencoes_tributarias:hover
+{
+	background-image:url(imgs/2_isencoes-tributarias_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #nao_condutores:hover
+{
+	background-image:url(imgs/3_nao-condutores_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #habilitacao_especial:hover
+{
+	background-image:url(imgs/4_habilitacao-especial_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #defesa_pontuacao:hover
+{
+	background-image:url(imgs/5_defesa-pontuacao_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #laudo_medico:hover
+{
+	background:url(imgs/6_laudo-medico_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #venda_usado:hover
+{
+	background:url(imgs/7_venda-seu-usado_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #cartao_defis:hover
+{
+	background-image:url(imgs/8_cartao-defis_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #avaliacao_gratuita:hover
+{
+	background-image:url(imgs/9_avaliacao-gratuita_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #adaptacao_veiculos:hover
+{
+	background-image:url(imgs/10_adaptacao-de-veiculos_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #empresa:hover
+{
+	background-image:url(imgs/11_empresas_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.icons #concessionarias:hover
+{
+	background-image:url(imgs/12_concessionarias_ativado.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+}
+
+.isen_impost
+{
+	height:44px;
+	margin-top:15px;
+	height:80px;
+	margin-left:-50px;
+}
+
+.img_isent_impost
+{
+	float:left;
+}
+
+.txt_isent_impost
+{
+	float:left;
+	font-size:12px;
+	width:560px;
+	text-align:justify;
+	font-weight:100;
+	margin-top:15px;
+	margin-left:10px;
+}
+/*.txt_isent_impost:hover
+{
+	font-weight:bold;
+	background-color:#FFF;
+	opacity:.8;
+	cursor:help;
+	padding:3px;
+}*/
+
+#titulo
+{
+	font-weight:100;
+}
+
+#titulo strong
+{
+	font-weight:bold;
+}
+/*LOCAL*/
+
+/*LOCAL*/
+
 
 /*RODAPE*/
 .rodape
 {
+	width:100%;
+	background-color:#e7e7e7;
 	clear:both;
-    height:50px;
-    
+    height:600px;
+	list-style:none;  
+	color:#010f3c;
+	font-size:12px;
+}
+
+.rodape a 
+{
+	color:#010f3c;
+}
+
+.rodape_col1
+{
+	margin-top:60px;
+	text-align:left;
+	float:left;
+	width:35%;
+}
+
+.rodape_col1 ul
+{
+   list-style:none;
+}
+
+.rodape_col1 ul li
+{
+	line-height:80px;
+}
+.rodape_col2
+{
+	margin-top:90px;
+	text-align:left;
+	float:left;
+	width:35%;
+	line-height:35px;
+}
+
+.rodape_col3
+{
+	margin-top:100px;
+	text-align:left;
+	float:left;
+	width:30%;
+}
+.rodape_inferior
+{
+	height:144px;
+	background-color:#818181;
+}
+
+.redes_sociais1
+{
+	width:105%;
+	display:block;
+	margin-bottom:20px;
 }
 /*FIM RODAPE*/
 
@@ -640,6 +1122,10 @@ textarea{
 @media only screen and (min-width: 768px) and (max-width:1024px){
     
     /*BANNER DESTAQUE TABLET */
+	#logo
+	{
+		margin-left:20px;
+	}
     .cx_lead
     {
         display:none;
@@ -665,6 +1151,10 @@ textarea{
     {
         display: none;
     }
+	.formulario
+	{
+		display:none;
+	}
     .formulario h1
     {
         text-align: center;
@@ -678,7 +1168,10 @@ textarea{
     {
         display:none;
     }
-    
+    .video
+	{
+		display:none;
+	}
   
 }
 
@@ -704,6 +1197,18 @@ textarea{
     
     
     /*BANNER DESTAQUE CELULARES */
+	#logo
+	{
+		margin-left:20px;
+	}
+	.formulario
+	{
+		display:none;
+	}
+	.video
+	{
+		display:none;
+	}
     .cx_lead
     {
         display:none;
@@ -752,3 +1257,58 @@ textarea{
 
 /* ------------------------CELULARES ----------------------------------------------------*/
 
+
+
+
+
+
+
+/* MEDIA QUERY - GALAXI*/
+@media only screen and (min-width: 360px) and (max-width:640px){
+	
+	.formulario
+	{
+		display:none;
+	}
+	.video
+	{
+		display:none;
+	}
+	#logo
+	{
+		margin-left:20px;
+	}
+	.social
+	{
+		display:none;
+	}
+	
+}
+/* MEDIA QUERY - GALAXI*/
+
+
+
+
+
+/* MEDIA QUERY */
+@media only screen and (min-width: 320px) and (max-width:568px){
+	
+	.formulario
+	{
+		display:none;
+	}
+	.video
+	{
+		display:none;
+	}
+	#logo
+	{
+		margin-left:20px;
+	}
+	.social
+	{
+		display:none;
+	}
+	
+}
+/* MEDIA QUERY */
